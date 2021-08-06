@@ -40,3 +40,23 @@ body {
     margin-bottom: 20px;
 }
 
+.input {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.input input {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: #133c55;
+    box-shadow: 5px #adb5bd;
+    outline: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
