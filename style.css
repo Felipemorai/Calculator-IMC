@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
 main {
     display: flex;
     width: 100vw;
@@ -8,13 +8,14 @@ main {
 }
 
 body {
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: #133c55;
+    background-image: linear-gradient(to top,#cfd9df 0%, #e2ebf0 100%);
 }
 
 #calculate {
-    font-family: 'Kanit', sans-serif;
-    color: #133c55;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #333;
 }
 
 .container {
@@ -26,6 +27,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     border-radius: 30px;
+    border: solid 2px ;
     box-shadow: 0 0 10px #adb5bd;
 }
 
@@ -60,3 +62,17 @@ body {
     text-align: center;
 }
 
+.input label {
+    font-size: 1.4rem;
+}
+
+button {
+    width: 200px;
+    height: 32px;
+    font-size: 1.2rem;
+    color: #fff;
+    background: azure;
+    border: solid 2px #333;
+    border-radius: 10px;
+    cursor: pointer;
+}
