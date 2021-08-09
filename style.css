@@ -64,6 +64,7 @@ body {
 
 .input label {
     font-size: 1.4rem;
+    
 }
 
 button {
@@ -75,4 +76,21 @@ button {
     border: solid 2px #333;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.result {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    background: #fff !important;
+    font: 'Josefin Sans' 1.5rem;
+    box-shadow: 0px 0px 10px #adb5bd;
+    color: #000;
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+
 }
