@@ -12,7 +12,7 @@ function imc () {
         alert ('value filled!')
     }
     else {
-        alert ('fill all!!!')
+        result.textContent = 'fill all!!!';
     }
 }
 
