@@ -1,11 +1,19 @@
-const name = document.getElementById('name');
-const height = document.getElementById('height');
-const weight = document.getElementById('weight');
+
 const calculate = document.getElementById('calculate');
-const result = document.getElementById('result');
+
 
 function imc () {
-    alert ('fuck my pussy, babe.');
+    const name = document.getElementById('name').value;
+    const height = document.getElementById('height').value;
+    const weight = document.getElementById('weight').valeu;
+    const result = document.getElementById('result');
+
+    if (name !== '' && height !== '' && weight !== '') {
+        alert ('value filled!')
+    }
+    else {
+        alert ('fill all!!!')
+    }
 }
 
-calculate.addEventListener('click', imc);
+calculate.addEventListener('click', imc); 
