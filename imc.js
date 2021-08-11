@@ -9,7 +9,11 @@ function imc () {
     const result = document.getElementById('result');
 
     if (name !== '' && height !== '' && weight !== '') {
-        alert ('value filled!')
+        
+        const valueIMC = (weight / (height * height));
+
+        result.textContent = valueIMC;
+
     }
     else {
         result.textContent = 'fill all!!!';
