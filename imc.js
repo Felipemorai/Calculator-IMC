@@ -12,7 +12,13 @@ function imc () {
         
         const valueIMC = (weight / (height * height)).toFixed(1);
 
-        resulted.textContent = valueIMC;
+        let classification = "";
+
+        if (valueIMC < 18.5){
+            classification = "you're underweight"
+        }
+
+        resulted.textContent = `${name} your IMC is ${valueIMC} and you are ${classification}`;
 
     }
     else {
