@@ -6,17 +6,17 @@ function imc () {
     const name = document.getElementById('name').value;
     const height = document.getElementById('height').value;
     const weight = document.getElementById('weight').valeu;
-    const result = document.getElementById('result');
+    const resulted = document.getElementById('resulted');
 
     if (name !== '' && height !== '' && weight !== '') {
         
-        const valueIMC = (weight / (height * height));
+        const valueIMC = (weight / (height * height)).toFixed(1);
 
-        result.textContent = valueIMC;
+        resulted.textContent = valueIMC;
 
     }
     else {
-        result.textContent = 'fill all!!!';
+        resulted.textContent = 'fill all!!!';
     }
 }
 
